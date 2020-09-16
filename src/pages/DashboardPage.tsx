@@ -47,7 +47,7 @@ const DashboardPage = () => {
           <InfoBox
             Icon={ShoppingCart}
             spanBgColor={pink600}
-            title="Total Profit"
+            title="全部淨利"
             value="1500k"
           />
         </Grid>
@@ -58,7 +58,7 @@ const DashboardPage = () => {
           <InfoBox
             Icon={Assessment}
             spanBgColor={purple600}
-            title="Sales"
+            title="銷售"
             value="460"
           />
         </Grid>
@@ -66,7 +66,7 @@ const DashboardPage = () => {
           <InfoBox
             Icon={Face}
             spanBgColor={orange600}
-            title="New Members"
+            title="新客戶"
             value="248"
           />
         </Grid>

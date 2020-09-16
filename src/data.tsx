@@ -5,6 +5,7 @@ import SettingsPower from '@material-ui/icons/SettingsPower';
 import VpnKey from '@material-ui/icons/VpnKey';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
+import Dd from '@material-ui/icons/Timelapse';
 import ChevronRight from '@material-ui/icons/ChevronRight';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import { cyan, pink, purple } from '@material-ui/core/colors';
@@ -16,11 +17,12 @@ const purple600 = purple['600'];
 
 const data = {
   menus: [
-    { text: "DashBoard", icon: <Assessment />, link: "/dashboard" },
-    { text: "Customer", icon: <PermIdentity />, link: "/customers" },
-    { text: "Order", icon: <ShoppingCartOutlinedIcon />, link: "/orders" },
-    { text: "Product", icon: <StoreOutlinedIcon />, link: "/products" },
-    { text: "About", icon: <InfoOutlinedIcon />, link: "/about" }
+    { text: "首頁", icon: <Assessment />, link: "/dashboard" },
+    { text: "客戶", icon: <PermIdentity />, link: "/customers" },
+    { text: "產品/服務/價格設定", icon: <StoreOutlinedIcon />, link: "/products" },
+    { text: "訂單/客戶消費紀錄", icon: <ShoppingCartOutlinedIcon />, link: "/orders" },
+    { text: "行事曆", icon: <Dd/>, link: "/calender" },    
+    { text: "簡介", icon: <InfoOutlinedIcon />, link: "/about" }
   ],
   userMenus: [
     { text: "Sign out", icon: <SettingsPower />, link: "/login" },

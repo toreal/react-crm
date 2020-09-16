@@ -28,11 +28,14 @@ const styles = {
 const AboutPage: React.FC = () => {
     return (
       <div style={styles.about}>
-        <div style={styles.title}><b>About</b></div>
-        <div style={styles.version}>React CRM Demo App 2.0.0</div>
+        <div style={styles.title}><b>關於</b></div>
+        <div style={styles.version}> 客戶管理 Demo App 2.0.0</div>
         <div style={styles.desc}>
-          <p>This demo app is not a real application. There is no fake API as back-end service behind the scene. The advanced search in the demo doesn't work properly. Any data update (create or update record) will not be stored after hard refresh or logout. The main purpose of this demo is just a proof of concept.
-           </p>
+          <p>
+
+          宏褔資能科技有限公司
+
+          </p>
         </div>
       </div>
     );

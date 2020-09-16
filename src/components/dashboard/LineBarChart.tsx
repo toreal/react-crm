@@ -42,7 +42,7 @@ const LineBarChart = (props: LineBarChartProps) => {
 
   return (
     <Paper style={styles.paper}>
-      <span style={styles.title}>Website Analysis</span>
+      <span style={styles.title}>產品銷量分析</span>
 
       <div style={styles.clear} />
 

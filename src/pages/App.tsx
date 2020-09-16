@@ -25,6 +25,7 @@ import ProductListPage from "./ProductListPage";
 import AboutPage from "./AboutPage";
 import NotFoundPage from "./NotFoundPage";
 import ChangePasswordPage from "./ChangePasswordPage";
+import MaterialUIPickers from "./Calender";
 
 const isSmallsWindowScreen = () => {
   return window.innerWidth <= 600;
@@ -193,6 +194,7 @@ class App extends React.Component<AppProps, AppState> {
                 <Route path={`/product/:id`} component={ProductFormPage} />
                 <Route path={`/newproduct`} component={ProductFormPage} />
                 <Route path={`/about`} component={AboutPage} />
+                <Route path={`/calender`} component={MaterialUIPickers} />
                 <Route path="/changepass" component={ChangePasswordPage} />
                 {/* <Route path="/404" component={NotFoundPage} />
                 <Redirect to="/404" /> */}
